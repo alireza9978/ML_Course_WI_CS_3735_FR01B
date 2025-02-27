@@ -6,6 +6,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 
 from src.A1.MyRegressions import LinearRegression as MyLinearRegression
+import numpy as np
+import seaborn as sns
+import pandas as pd
+from matplotlib import pyplot as plt
+
 
 # Download latest version
 path = kagglehub.dataset_download("hanaksoy/customer-purchasing-behaviors")
@@ -21,6 +26,10 @@ x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 le = LabelEncoder()
 x_train['region'] = le.fit_transform(x_train['region'])
 x_test['region'] = le.transform(x_test['region'])
+
+plt.figure(figsize=(11,8))
+sns.heatmap(pd.concat([x_train, y_train], axis=1).corr(), cmap="Greens",annot=True)
+plt.savefig("result/A1/corr.jpeg")
 
 ### Part 1
 reg = LinearRegression()
