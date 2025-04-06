@@ -1,0 +1,6170 @@
+[
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 2,
+        "neurons": [
+            64,
+            64
+        ],
+        "activation": "logistic",
+        "optimizer": "adam",
+        "accuracy": 0.9736842105263158,
+        "classification_report": {
+            "B": {
+                "precision": 0.96,
+                "recall": 1.0,
+                "f1-score": 0.9795918367346939,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9285714285714286,
+                "f1-score": 0.9629629629629629,
+                "support": 42.0
+            },
+            "accuracy": 0.9736842105263158,
+            "macro avg": {
+                "precision": 0.98,
+                "recall": 0.9642857142857143,
+                "f1-score": 0.9712773998488284,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9747368421052632,
+                "recall": 0.9736842105263158,
+                "f1-score": 0.9734654095556351,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                3,
+                39
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 2,
+        "neurons": [
+            64,
+            64
+        ],
+        "activation": "logistic",
+        "optimizer": "sgd",
+        "accuracy": 0.631578947368421,
+        "classification_report": {
+            "B": {
+                "precision": 0.631578947368421,
+                "recall": 1.0,
+                "f1-score": 0.7741935483870968,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 42.0
+            },
+            "accuracy": 0.631578947368421,
+            "macro avg": {
+                "precision": 0.3157894736842105,
+                "recall": 0.5,
+                "f1-score": 0.3870967741935484,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.39889196675900274,
+                "recall": 0.631578947368421,
+                "f1-score": 0.48896434634974534,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                42,
+                0
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 2,
+        "neurons": [
+            64,
+            64
+        ],
+        "activation": "tanh",
+        "optimizer": "adam",
+        "accuracy": 0.9649122807017544,
+        "classification_report": {
+            "B": {
+                "precision": 0.9594594594594594,
+                "recall": 0.9861111111111112,
+                "f1-score": 0.9726027397260274,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 0.975,
+                "recall": 0.9285714285714286,
+                "f1-score": 0.9512195121951219,
+                "support": 42.0
+            },
+            "accuracy": 0.9649122807017544,
+            "macro avg": {
+                "precision": 0.9672297297297296,
+                "recall": 0.9573412698412699,
+                "f1-score": 0.9619111259605746,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9651849217638692,
+                "recall": 0.9649122807017544,
+                "f1-score": 0.9647247085304307,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                71,
+                1
+            ],
+            [
+                3,
+                39
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 2,
+        "neurons": [
+            64,
+            64
+        ],
+        "activation": "tanh",
+        "optimizer": "sgd",
+        "accuracy": 0.9824561403508771,
+        "classification_report": {
+            "B": {
+                "precision": 0.972972972972973,
+                "recall": 1.0,
+                "f1-score": 0.9863013698630136,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9523809523809523,
+                "f1-score": 0.975609756097561,
+                "support": 42.0
+            },
+            "accuracy": 0.9824561403508771,
+            "macro avg": {
+                "precision": 0.9864864864864865,
+                "recall": 0.9761904761904762,
+                "f1-score": 0.9809555629802873,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9829302987197724,
+                "recall": 0.9824561403508771,
+                "f1-score": 0.9823623542652152,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                2,
+                40
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 2,
+        "neurons": [
+            64,
+            64
+        ],
+        "activation": "relu",
+        "optimizer": "adam",
+        "accuracy": 0.9736842105263158,
+        "classification_report": {
+            "B": {
+                "precision": 0.96,
+                "recall": 1.0,
+                "f1-score": 0.9795918367346939,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9285714285714286,
+                "f1-score": 0.9629629629629629,
+                "support": 42.0
+            },
+            "accuracy": 0.9736842105263158,
+            "macro avg": {
+                "precision": 0.98,
+                "recall": 0.9642857142857143,
+                "f1-score": 0.9712773998488284,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9747368421052632,
+                "recall": 0.9736842105263158,
+                "f1-score": 0.9734654095556351,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                3,
+                39
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 2,
+        "neurons": [
+            64,
+            64
+        ],
+        "activation": "relu",
+        "optimizer": "sgd",
+        "accuracy": 0.9824561403508771,
+        "classification_report": {
+            "B": {
+                "precision": 0.972972972972973,
+                "recall": 1.0,
+                "f1-score": 0.9863013698630136,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9523809523809523,
+                "f1-score": 0.975609756097561,
+                "support": 42.0
+            },
+            "accuracy": 0.9824561403508771,
+            "macro avg": {
+                "precision": 0.9864864864864865,
+                "recall": 0.9761904761904762,
+                "f1-score": 0.9809555629802873,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9829302987197724,
+                "recall": 0.9824561403508771,
+                "f1-score": 0.9823623542652152,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                2,
+                40
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 2,
+        "neurons": [
+            128,
+            128
+        ],
+        "activation": "logistic",
+        "optimizer": "adam",
+        "accuracy": 0.9824561403508771,
+        "classification_report": {
+            "B": {
+                "precision": 0.972972972972973,
+                "recall": 1.0,
+                "f1-score": 0.9863013698630136,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9523809523809523,
+                "f1-score": 0.975609756097561,
+                "support": 42.0
+            },
+            "accuracy": 0.9824561403508771,
+            "macro avg": {
+                "precision": 0.9864864864864865,
+                "recall": 0.9761904761904762,
+                "f1-score": 0.9809555629802873,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9829302987197724,
+                "recall": 0.9824561403508771,
+                "f1-score": 0.9823623542652152,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                2,
+                40
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 2,
+        "neurons": [
+            128,
+            128
+        ],
+        "activation": "logistic",
+        "optimizer": "sgd",
+        "accuracy": 0.631578947368421,
+        "classification_report": {
+            "B": {
+                "precision": 0.631578947368421,
+                "recall": 1.0,
+                "f1-score": 0.7741935483870968,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 42.0
+            },
+            "accuracy": 0.631578947368421,
+            "macro avg": {
+                "precision": 0.3157894736842105,
+                "recall": 0.5,
+                "f1-score": 0.3870967741935484,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.39889196675900274,
+                "recall": 0.631578947368421,
+                "f1-score": 0.48896434634974534,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                42,
+                0
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 2,
+        "neurons": [
+            128,
+            128
+        ],
+        "activation": "tanh",
+        "optimizer": "adam",
+        "accuracy": 0.9824561403508771,
+        "classification_report": {
+            "B": {
+                "precision": 0.972972972972973,
+                "recall": 1.0,
+                "f1-score": 0.9863013698630136,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9523809523809523,
+                "f1-score": 0.975609756097561,
+                "support": 42.0
+            },
+            "accuracy": 0.9824561403508771,
+            "macro avg": {
+                "precision": 0.9864864864864865,
+                "recall": 0.9761904761904762,
+                "f1-score": 0.9809555629802873,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9829302987197724,
+                "recall": 0.9824561403508771,
+                "f1-score": 0.9823623542652152,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                2,
+                40
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 2,
+        "neurons": [
+            128,
+            128
+        ],
+        "activation": "tanh",
+        "optimizer": "sgd",
+        "accuracy": 0.9736842105263158,
+        "classification_report": {
+            "B": {
+                "precision": 0.9726027397260274,
+                "recall": 0.9861111111111112,
+                "f1-score": 0.9793103448275862,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 0.975609756097561,
+                "recall": 0.9523809523809523,
+                "f1-score": 0.963855421686747,
+                "support": 42.0
+            },
+            "accuracy": 0.9736842105263158,
+            "macro avg": {
+                "precision": 0.9741062479117941,
+                "recall": 0.9692460317460317,
+                "f1-score": 0.9715828832571666,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9737105878629081,
+                "recall": 0.9736842105263158,
+                "f1-score": 0.9736164257756981,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                71,
+                1
+            ],
+            [
+                2,
+                40
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 2,
+        "neurons": [
+            128,
+            128
+        ],
+        "activation": "relu",
+        "optimizer": "adam",
+        "accuracy": 0.9649122807017544,
+        "classification_report": {
+            "B": {
+                "precision": 0.9473684210526315,
+                "recall": 1.0,
+                "f1-score": 0.972972972972973,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9047619047619048,
+                "f1-score": 0.95,
+                "support": 42.0
+            },
+            "accuracy": 0.9649122807017544,
+            "macro avg": {
+                "precision": 0.9736842105263157,
+                "recall": 0.9523809523809523,
+                "f1-score": 0.9614864864864865,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.966759002770083,
+                "recall": 0.9649122807017544,
+                "f1-score": 0.9645092460881936,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                4,
+                38
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 2,
+        "neurons": [
+            128,
+            128
+        ],
+        "activation": "relu",
+        "optimizer": "sgd",
+        "accuracy": 0.9649122807017544,
+        "classification_report": {
+            "B": {
+                "precision": 0.9594594594594594,
+                "recall": 0.9861111111111112,
+                "f1-score": 0.9726027397260274,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 0.975,
+                "recall": 0.9285714285714286,
+                "f1-score": 0.9512195121951219,
+                "support": 42.0
+            },
+            "accuracy": 0.9649122807017544,
+            "macro avg": {
+                "precision": 0.9672297297297296,
+                "recall": 0.9573412698412699,
+                "f1-score": 0.9619111259605746,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9651849217638692,
+                "recall": 0.9649122807017544,
+                "f1-score": 0.9647247085304307,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                71,
+                1
+            ],
+            [
+                3,
+                39
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 3,
+        "neurons": [
+            64,
+            64,
+            64
+        ],
+        "activation": "logistic",
+        "optimizer": "adam",
+        "accuracy": 0.9824561403508771,
+        "classification_report": {
+            "B": {
+                "precision": 0.972972972972973,
+                "recall": 1.0,
+                "f1-score": 0.9863013698630136,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9523809523809523,
+                "f1-score": 0.975609756097561,
+                "support": 42.0
+            },
+            "accuracy": 0.9824561403508771,
+            "macro avg": {
+                "precision": 0.9864864864864865,
+                "recall": 0.9761904761904762,
+                "f1-score": 0.9809555629802873,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9829302987197724,
+                "recall": 0.9824561403508771,
+                "f1-score": 0.9823623542652152,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                2,
+                40
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 3,
+        "neurons": [
+            64,
+            64,
+            64
+        ],
+        "activation": "logistic",
+        "optimizer": "sgd",
+        "accuracy": 0.631578947368421,
+        "classification_report": {
+            "B": {
+                "precision": 0.631578947368421,
+                "recall": 1.0,
+                "f1-score": 0.7741935483870968,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 42.0
+            },
+            "accuracy": 0.631578947368421,
+            "macro avg": {
+                "precision": 0.3157894736842105,
+                "recall": 0.5,
+                "f1-score": 0.3870967741935484,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.39889196675900274,
+                "recall": 0.631578947368421,
+                "f1-score": 0.48896434634974534,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                42,
+                0
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 3,
+        "neurons": [
+            64,
+            64,
+            64
+        ],
+        "activation": "tanh",
+        "optimizer": "adam",
+        "accuracy": 0.9649122807017544,
+        "classification_report": {
+            "B": {
+                "precision": 0.9594594594594594,
+                "recall": 0.9861111111111112,
+                "f1-score": 0.9726027397260274,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 0.975,
+                "recall": 0.9285714285714286,
+                "f1-score": 0.9512195121951219,
+                "support": 42.0
+            },
+            "accuracy": 0.9649122807017544,
+            "macro avg": {
+                "precision": 0.9672297297297296,
+                "recall": 0.9573412698412699,
+                "f1-score": 0.9619111259605746,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9651849217638692,
+                "recall": 0.9649122807017544,
+                "f1-score": 0.9647247085304307,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                71,
+                1
+            ],
+            [
+                3,
+                39
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 3,
+        "neurons": [
+            64,
+            64,
+            64
+        ],
+        "activation": "tanh",
+        "optimizer": "sgd",
+        "accuracy": 0.9824561403508771,
+        "classification_report": {
+            "B": {
+                "precision": 0.972972972972973,
+                "recall": 1.0,
+                "f1-score": 0.9863013698630136,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9523809523809523,
+                "f1-score": 0.975609756097561,
+                "support": 42.0
+            },
+            "accuracy": 0.9824561403508771,
+            "macro avg": {
+                "precision": 0.9864864864864865,
+                "recall": 0.9761904761904762,
+                "f1-score": 0.9809555629802873,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9829302987197724,
+                "recall": 0.9824561403508771,
+                "f1-score": 0.9823623542652152,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                2,
+                40
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 3,
+        "neurons": [
+            64,
+            64,
+            64
+        ],
+        "activation": "relu",
+        "optimizer": "adam",
+        "accuracy": 0.9824561403508771,
+        "classification_report": {
+            "B": {
+                "precision": 0.972972972972973,
+                "recall": 1.0,
+                "f1-score": 0.9863013698630136,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9523809523809523,
+                "f1-score": 0.975609756097561,
+                "support": 42.0
+            },
+            "accuracy": 0.9824561403508771,
+            "macro avg": {
+                "precision": 0.9864864864864865,
+                "recall": 0.9761904761904762,
+                "f1-score": 0.9809555629802873,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9829302987197724,
+                "recall": 0.9824561403508771,
+                "f1-score": 0.9823623542652152,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                2,
+                40
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 3,
+        "neurons": [
+            64,
+            64,
+            64
+        ],
+        "activation": "relu",
+        "optimizer": "sgd",
+        "accuracy": 0.9824561403508771,
+        "classification_report": {
+            "B": {
+                "precision": 0.972972972972973,
+                "recall": 1.0,
+                "f1-score": 0.9863013698630136,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9523809523809523,
+                "f1-score": 0.975609756097561,
+                "support": 42.0
+            },
+            "accuracy": 0.9824561403508771,
+            "macro avg": {
+                "precision": 0.9864864864864865,
+                "recall": 0.9761904761904762,
+                "f1-score": 0.9809555629802873,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9829302987197724,
+                "recall": 0.9824561403508771,
+                "f1-score": 0.9823623542652152,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                2,
+                40
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 3,
+        "neurons": [
+            128,
+            128,
+            128
+        ],
+        "activation": "logistic",
+        "optimizer": "adam",
+        "accuracy": 0.9736842105263158,
+        "classification_report": {
+            "B": {
+                "precision": 0.96,
+                "recall": 1.0,
+                "f1-score": 0.9795918367346939,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9285714285714286,
+                "f1-score": 0.9629629629629629,
+                "support": 42.0
+            },
+            "accuracy": 0.9736842105263158,
+            "macro avg": {
+                "precision": 0.98,
+                "recall": 0.9642857142857143,
+                "f1-score": 0.9712773998488284,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9747368421052632,
+                "recall": 0.9736842105263158,
+                "f1-score": 0.9734654095556351,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                3,
+                39
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 3,
+        "neurons": [
+            128,
+            128,
+            128
+        ],
+        "activation": "logistic",
+        "optimizer": "sgd",
+        "accuracy": 0.631578947368421,
+        "classification_report": {
+            "B": {
+                "precision": 0.631578947368421,
+                "recall": 1.0,
+                "f1-score": 0.7741935483870968,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 42.0
+            },
+            "accuracy": 0.631578947368421,
+            "macro avg": {
+                "precision": 0.3157894736842105,
+                "recall": 0.5,
+                "f1-score": 0.3870967741935484,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.39889196675900274,
+                "recall": 0.631578947368421,
+                "f1-score": 0.48896434634974534,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                42,
+                0
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 3,
+        "neurons": [
+            128,
+            128,
+            128
+        ],
+        "activation": "tanh",
+        "optimizer": "adam",
+        "accuracy": 0.9649122807017544,
+        "classification_report": {
+            "B": {
+                "precision": 0.9594594594594594,
+                "recall": 0.9861111111111112,
+                "f1-score": 0.9726027397260274,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 0.975,
+                "recall": 0.9285714285714286,
+                "f1-score": 0.9512195121951219,
+                "support": 42.0
+            },
+            "accuracy": 0.9649122807017544,
+            "macro avg": {
+                "precision": 0.9672297297297296,
+                "recall": 0.9573412698412699,
+                "f1-score": 0.9619111259605746,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9651849217638692,
+                "recall": 0.9649122807017544,
+                "f1-score": 0.9647247085304307,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                71,
+                1
+            ],
+            [
+                3,
+                39
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 3,
+        "neurons": [
+            128,
+            128,
+            128
+        ],
+        "activation": "tanh",
+        "optimizer": "sgd",
+        "accuracy": 0.9824561403508771,
+        "classification_report": {
+            "B": {
+                "precision": 0.972972972972973,
+                "recall": 1.0,
+                "f1-score": 0.9863013698630136,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9523809523809523,
+                "f1-score": 0.975609756097561,
+                "support": 42.0
+            },
+            "accuracy": 0.9824561403508771,
+            "macro avg": {
+                "precision": 0.9864864864864865,
+                "recall": 0.9761904761904762,
+                "f1-score": 0.9809555629802873,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9829302987197724,
+                "recall": 0.9824561403508771,
+                "f1-score": 0.9823623542652152,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                2,
+                40
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 3,
+        "neurons": [
+            128,
+            128,
+            128
+        ],
+        "activation": "relu",
+        "optimizer": "adam",
+        "accuracy": 0.9736842105263158,
+        "classification_report": {
+            "B": {
+                "precision": 0.96,
+                "recall": 1.0,
+                "f1-score": 0.9795918367346939,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 1.0,
+                "recall": 0.9285714285714286,
+                "f1-score": 0.9629629629629629,
+                "support": 42.0
+            },
+            "accuracy": 0.9736842105263158,
+            "macro avg": {
+                "precision": 0.98,
+                "recall": 0.9642857142857143,
+                "f1-score": 0.9712773998488284,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9747368421052632,
+                "recall": 0.9736842105263158,
+                "f1-score": 0.9734654095556351,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                72,
+                0
+            ],
+            [
+                3,
+                39
+            ]
+        ]
+    },
+    {
+        "dataset": "Breast Cancer",
+        "hidden_layers": 3,
+        "neurons": [
+            128,
+            128,
+            128
+        ],
+        "activation": "relu",
+        "optimizer": "sgd",
+        "accuracy": 0.9736842105263158,
+        "classification_report": {
+            "B": {
+                "precision": 0.9726027397260274,
+                "recall": 0.9861111111111112,
+                "f1-score": 0.9793103448275862,
+                "support": 72.0
+            },
+            "M": {
+                "precision": 0.975609756097561,
+                "recall": 0.9523809523809523,
+                "f1-score": 0.963855421686747,
+                "support": 42.0
+            },
+            "accuracy": 0.9736842105263158,
+            "macro avg": {
+                "precision": 0.9741062479117941,
+                "recall": 0.9692460317460317,
+                "f1-score": 0.9715828832571666,
+                "support": 114.0
+            },
+            "weighted avg": {
+                "precision": 0.9737105878629081,
+                "recall": 0.9736842105263158,
+                "f1-score": 0.9736164257756981,
+                "support": 114.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                71,
+                1
+            ],
+            [
+                2,
+                40
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 2,
+        "neurons": [
+            64,
+            64
+        ],
+        "activation": "logistic",
+        "optimizer": "adam",
+        "accuracy": 0.9507142857142857,
+        "classification_report": {
+            "0": {
+                "precision": 0.9745762711864406,
+                "recall": 0.973397823458283,
+                "f1-score": 0.9739866908650938,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9778481012658228,
+                "recall": 0.9893276414087513,
+                "f1-score": 0.983554376657825,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.93935790725327,
+                "recall": 0.9461077844311377,
+                "f1-score": 0.9427207637231504,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9345579793340988,
+                "recall": 0.9356321839080459,
+                "f1-score": 0.9350947731188972,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.947239263803681,
+                "recall": 0.9484029484029484,
+                "f1-score": 0.9478207489257213,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9344919786096256,
+                "recall": 0.9209486166007905,
+                "f1-score": 0.9276708692767087,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9651442307692307,
+                "recall": 0.9709794437726723,
+                "f1-score": 0.9680530440024111,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9623717217787914,
+                "recall": 0.9590909090909091,
+                "f1-score": 0.960728514513375,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9443742098609356,
+                "recall": 0.9188191881918819,
+                "f1-score": 0.9314214463840399,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9224441833137486,
+                "recall": 0.9367541766109785,
+                "f1-score": 0.9295441089402013,
+                "support": 838.0
+            },
+            "accuracy": 0.9507142857142857,
+            "macro avg": {
+                "precision": 0.9502405847175645,
+                "recall": 0.9499460715876399,
+                "f1-score": 0.9500595336407424,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9506935198191266,
+                "recall": 0.9507142857142857,
+                "f1-score": 0.9506707825436335,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                805,
+                0,
+                3,
+                1,
+                3,
+                5,
+                7,
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                927,
+                3,
+                1,
+                0,
+                2,
+                1,
+                0,
+                3,
+                0
+            ],
+            [
+                4,
+                4,
+                790,
+                5,
+                9,
+                1,
+                4,
+                7,
+                7,
+                4
+            ],
+            [
+                3,
+                0,
+                16,
+                814,
+                2,
+                14,
+                0,
+                4,
+                10,
+                7
+            ],
+            [
+                0,
+                4,
+                3,
+                0,
+                772,
+                2,
+                5,
+                2,
+                2,
+                24
+            ],
+            [
+                4,
+                2,
+                6,
+                20,
+                3,
+                699,
+                7,
+                2,
+                10,
+                6
+            ],
+            [
+                1,
+                2,
+                5,
+                1,
+                3,
+                9,
+                803,
+                0,
+                3,
+                0
+            ],
+            [
+                1,
+                3,
+                4,
+                7,
+                5,
+                2,
+                0,
+                844,
+                1,
+                13
+            ],
+            [
+                6,
+                6,
+                9,
+                17,
+                3,
+                8,
+                5,
+                2,
+                747,
+                10
+            ],
+            [
+                2,
+                0,
+                2,
+                5,
+                15,
+                6,
+                0,
+                15,
+                8,
+                785
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 2,
+        "neurons": [
+            64,
+            64
+        ],
+        "activation": "logistic",
+        "optimizer": "sgd",
+        "accuracy": 0.9411904761904762,
+        "classification_report": {
+            "0": {
+                "precision": 0.9549763033175356,
+                "recall": 0.9746070133010882,
+                "f1-score": 0.964691801316577,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9664218258132214,
+                "recall": 0.9829242262540021,
+                "f1-score": 0.9746031746031746,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9427890345649583,
+                "recall": 0.9473053892215569,
+                "f1-score": 0.945041816009558,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9330199764982373,
+                "recall": 0.9126436781609195,
+                "f1-score": 0.9227193492155723,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9282238442822385,
+                "recall": 0.9373464373464373,
+                "f1-score": 0.9327628361858191,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9062087186261559,
+                "recall": 0.9038208168642952,
+                "f1-score": 0.9050131926121372,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9671931956257594,
+                "recall": 0.9625151148730351,
+                "f1-score": 0.9648484848484848,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9502824858757062,
+                "recall": 0.9556818181818182,
+                "f1-score": 0.9529745042492918,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9372599231754162,
+                "recall": 0.9003690036900369,
+                "f1-score": 0.918444165621079,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9183431952662722,
+                "recall": 0.9260143198090692,
+                "f1-score": 0.9221628045157457,
+                "support": 838.0
+            },
+            "accuracy": 0.9411904761904762,
+            "macro avg": {
+                "precision": 0.9404718503045502,
+                "recall": 0.9403227817702258,
+                "f1-score": 0.9403262129177439,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9411103308638886,
+                "recall": 0.9411904761904762,
+                "f1-score": 0.9410795004605461,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                806,
+                0,
+                3,
+                2,
+                2,
+                3,
+                7,
+                0,
+                2,
+                2
+            ],
+            [
+                0,
+                921,
+                2,
+                3,
+                0,
+                2,
+                0,
+                3,
+                6,
+                0
+            ],
+            [
+                7,
+                1,
+                791,
+                4,
+                10,
+                2,
+                1,
+                7,
+                11,
+                1
+            ],
+            [
+                3,
+                4,
+                21,
+                794,
+                1,
+                27,
+                1,
+                6,
+                9,
+                4
+            ],
+            [
+                5,
+                2,
+                5,
+                0,
+                763,
+                3,
+                6,
+                1,
+                3,
+                26
+            ],
+            [
+                4,
+                5,
+                4,
+                22,
+                7,
+                686,
+                7,
+                4,
+                12,
+                8
+            ],
+            [
+                5,
+                2,
+                5,
+                0,
+                7,
+                11,
+                796,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                7,
+                2,
+                3,
+                8,
+                1,
+                0,
+                841,
+                1,
+                16
+            ],
+            [
+                8,
+                10,
+                6,
+                16,
+                2,
+                19,
+                5,
+                3,
+                732,
+                12
+            ],
+            [
+                5,
+                1,
+                0,
+                7,
+                22,
+                3,
+                0,
+                20,
+                4,
+                776
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 2,
+        "neurons": [
+            64,
+            64
+        ],
+        "activation": "tanh",
+        "optimizer": "adam",
+        "accuracy": 0.955952380952381,
+        "classification_report": {
+            "0": {
+                "precision": 0.9630071599045346,
+                "recall": 0.9758162031438936,
+                "f1-score": 0.9693693693693693,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9778714436248683,
+                "recall": 0.9903948772678762,
+                "f1-score": 0.9840933191940615,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9534606205250596,
+                "recall": 0.9568862275449102,
+                "f1-score": 0.9551703526598924,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9564705882352941,
+                "recall": 0.9344827586206896,
+                "f1-score": 0.9453488372093023,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9407496977025392,
+                "recall": 0.9557739557739557,
+                "f1-score": 0.9482023156611822,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9420289855072463,
+                "recall": 0.9420289855072463,
+                "f1-score": 0.9420289855072463,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9769975786924939,
+                "recall": 0.9758162031438936,
+                "f1-score": 0.9764065335753176,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9644902634593356,
+                "recall": 0.9568181818181818,
+                "f1-score": 0.9606389047347405,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9428571428571428,
+                "recall": 0.933579335793358,
+                "f1-score": 0.9381953028430161,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9365269461077844,
+                "recall": 0.9331742243436754,
+                "f1-score": 0.9348475791990436,
+                "support": 838.0
+            },
+            "accuracy": 0.955952380952381,
+            "macro avg": {
+                "precision": 0.95544604266163,
+                "recall": 0.9554770952957681,
+                "f1-score": 0.9554301499953173,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.955927692280314,
+                "recall": 0.955952380952381,
+                "f1-score": 0.9559079545664451,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                807,
+                0,
+                4,
+                1,
+                3,
+                4,
+                4,
+                0,
+                2,
+                2
+            ],
+            [
+                0,
+                928,
+                3,
+                2,
+                0,
+                3,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                4,
+                4,
+                799,
+                5,
+                6,
+                1,
+                1,
+                6,
+                7,
+                2
+            ],
+            [
+                3,
+                3,
+                11,
+                813,
+                0,
+                14,
+                1,
+                7,
+                11,
+                7
+            ],
+            [
+                2,
+                1,
+                4,
+                1,
+                778,
+                2,
+                4,
+                2,
+                4,
+                16
+            ],
+            [
+                7,
+                2,
+                4,
+                7,
+                3,
+                715,
+                3,
+                1,
+                10,
+                7
+            ],
+            [
+                5,
+                3,
+                3,
+                0,
+                0,
+                6,
+                807,
+                0,
+                3,
+                0
+            ],
+            [
+                0,
+                4,
+                6,
+                7,
+                3,
+                2,
+                0,
+                842,
+                3,
+                13
+            ],
+            [
+                6,
+                4,
+                2,
+                9,
+                10,
+                8,
+                6,
+                3,
+                759,
+                6
+            ],
+            [
+                4,
+                0,
+                2,
+                5,
+                24,
+                4,
+                0,
+                12,
+                5,
+                782
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 2,
+        "neurons": [
+            64,
+            64
+        ],
+        "activation": "tanh",
+        "optimizer": "sgd",
+        "accuracy": 0.9486904761904762,
+        "classification_report": {
+            "0": {
+                "precision": 0.9685990338164251,
+                "recall": 0.969770253929867,
+                "f1-score": 0.9691842900302114,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9778247096092925,
+                "recall": 0.9882604055496265,
+                "f1-score": 0.9830148619957537,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9495192307692307,
+                "recall": 0.9461077844311377,
+                "f1-score": 0.9478104379124175,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9322429906542056,
+                "recall": 0.9172413793103448,
+                "f1-score": 0.9246813441483198,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9485294117647058,
+                "recall": 0.9508599508599509,
+                "f1-score": 0.9496932515337423,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9239842726081258,
+                "recall": 0.9288537549407114,
+                "f1-score": 0.926412614980289,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.96875,
+                "recall": 0.9746070133010882,
+                "f1-score": 0.97166968053044,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9554285714285714,
+                "recall": 0.95,
+                "f1-score": 0.9527065527065527,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9357682619647355,
+                "recall": 0.9138991389913899,
+                "f1-score": 0.9247044181705041,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9206534422403734,
+                "recall": 0.9415274463007159,
+                "f1-score": 0.9309734513274336,
+                "support": 838.0
+            },
+            "accuracy": 0.9486904761904762,
+            "macro avg": {
+                "precision": 0.9481299924855666,
+                "recall": 0.9481127127614833,
+                "f1-score": 0.9480850903335665,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9486643680892262,
+                "recall": 0.9486904761904762,
+                "f1-score": 0.9486411114874843,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                802,
+                0,
+                5,
+                3,
+                1,
+                3,
+                8,
+                1,
+                3,
+                1
+            ],
+            [
+                0,
+                926,
+                2,
+                1,
+                0,
+                2,
+                1,
+                1,
+                4,
+                0
+            ],
+            [
+                4,
+                2,
+                790,
+                9,
+                6,
+                5,
+                2,
+                9,
+                6,
+                2
+            ],
+            [
+                4,
+                3,
+                15,
+                798,
+                2,
+                21,
+                1,
+                7,
+                13,
+                6
+            ],
+            [
+                0,
+                1,
+                3,
+                2,
+                774,
+                2,
+                3,
+                2,
+                5,
+                22
+            ],
+            [
+                6,
+                3,
+                0,
+                18,
+                3,
+                705,
+                7,
+                2,
+                9,
+                6
+            ],
+            [
+                4,
+                2,
+                6,
+                0,
+                0,
+                6,
+                806,
+                0,
+                3,
+                0
+            ],
+            [
+                0,
+                3,
+                6,
+                6,
+                7,
+                1,
+                0,
+                836,
+                4,
+                17
+            ],
+            [
+                5,
+                7,
+                4,
+                15,
+                6,
+                13,
+                4,
+                2,
+                743,
+                14
+            ],
+            [
+                3,
+                0,
+                1,
+                4,
+                17,
+                5,
+                0,
+                15,
+                4,
+                789
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 2,
+        "neurons": [
+            64,
+            64
+        ],
+        "activation": "relu",
+        "optimizer": "adam",
+        "accuracy": 0.9654761904761905,
+        "classification_report": {
+            "0": {
+                "precision": 0.9758162031438936,
+                "recall": 0.9758162031438936,
+                "f1-score": 0.9758162031438936,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9758909853249476,
+                "recall": 0.9935965848452508,
+                "f1-score": 0.9846641988365944,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9644970414201184,
+                "recall": 0.9760479041916168,
+                "f1-score": 0.9702380952380952,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9615832363213038,
+                "recall": 0.9494252873563218,
+                "f1-score": 0.9554655870445344,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.971604938271605,
+                "recall": 0.9668304668304668,
+                "f1-score": 0.9692118226600985,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9408672798948752,
+                "recall": 0.9433465085638999,
+                "f1-score": 0.9421052631578948,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9771359807460891,
+                "recall": 0.9818621523579202,
+                "f1-score": 0.9794933655006032,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9692132269099202,
+                "recall": 0.9659090909090909,
+                "f1-score": 0.9675583380762663,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9709228824273072,
+                "recall": 0.9446494464944649,
+                "f1-score": 0.9576059850374065,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9443786982248521,
+                "recall": 0.9522673031026253,
+                "f1-score": 0.948306595365419,
+                "support": 838.0
+            },
+            "accuracy": 0.9654761904761905,
+            "macro avg": {
+                "precision": 0.9651910472684913,
+                "recall": 0.964975094779555,
+                "f1-score": 0.9650465454060807,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9654875871323426,
+                "recall": 0.9654761904761905,
+                "f1-score": 0.9654449388657562,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                807,
+                0,
+                2,
+                2,
+                2,
+                4,
+                5,
+                0,
+                2,
+                3
+            ],
+            [
+                0,
+                931,
+                3,
+                0,
+                0,
+                0,
+                0,
+                1,
+                2,
+                0
+            ],
+            [
+                1,
+                4,
+                815,
+                4,
+                3,
+                0,
+                1,
+                6,
+                1,
+                0
+            ],
+            [
+                3,
+                3,
+                6,
+                826,
+                1,
+                21,
+                0,
+                4,
+                3,
+                3
+            ],
+            [
+                2,
+                2,
+                2,
+                0,
+                787,
+                1,
+                4,
+                0,
+                1,
+                15
+            ],
+            [
+                5,
+                2,
+                3,
+                12,
+                3,
+                716,
+                5,
+                2,
+                4,
+                7
+            ],
+            [
+                2,
+                2,
+                1,
+                1,
+                1,
+                6,
+                812,
+                0,
+                2,
+                0
+            ],
+            [
+                0,
+                5,
+                6,
+                1,
+                2,
+                1,
+                0,
+                850,
+                3,
+                12
+            ],
+            [
+                4,
+                5,
+                5,
+                7,
+                0,
+                10,
+                4,
+                3,
+                768,
+                7
+            ],
+            [
+                3,
+                0,
+                2,
+                6,
+                11,
+                2,
+                0,
+                11,
+                5,
+                798
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 2,
+        "neurons": [
+            64,
+            64
+        ],
+        "activation": "relu",
+        "optimizer": "sgd",
+        "accuracy": 0.9578571428571429,
+        "classification_report": {
+            "0": {
+                "precision": 0.9744835965978129,
+                "recall": 0.969770253929867,
+                "f1-score": 0.9721212121212122,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9779179810725552,
+                "recall": 0.9925293489861259,
+                "f1-score": 0.9851694915254238,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9609004739336493,
+                "recall": 0.9712574850299401,
+                "f1-score": 0.9660512209648601,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9469434832756632,
+                "recall": 0.9436781609195403,
+                "f1-score": 0.945308002302821,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9614427860696517,
+                "recall": 0.9496314496314496,
+                "f1-score": 0.9555006180469716,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9313471502590673,
+                "recall": 0.9472990777338604,
+                "f1-score": 0.9392553886348791,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9770531400966184,
+                "recall": 0.9782345828295043,
+                "f1-score": 0.9776435045317221,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9600912200684151,
+                "recall": 0.9568181818181818,
+                "f1-score": 0.958451906659078,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9580686149936467,
+                "recall": 0.9274292742927429,
+                "f1-score": 0.9425,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9268004722550177,
+                "recall": 0.9367541766109785,
+                "f1-score": 0.9317507418397626,
+                "support": 838.0
+            },
+            "accuracy": 0.9578571428571429,
+            "macro avg": {
+                "precision": 0.9575048918622097,
+                "recall": 0.9573401991782191,
+                "f1-score": 0.9573752086626731,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9579022052384258,
+                "recall": 0.9578571428571429,
+                "f1-score": 0.9578332867055035,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                802,
+                0,
+                3,
+                5,
+                1,
+                4,
+                5,
+                0,
+                4,
+                3
+            ],
+            [
+                0,
+                930,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                0
+            ],
+            [
+                0,
+                1,
+                811,
+                6,
+                3,
+                0,
+                1,
+                6,
+                6,
+                1
+            ],
+            [
+                3,
+                2,
+                7,
+                821,
+                1,
+                20,
+                2,
+                5,
+                4,
+                5
+            ],
+            [
+                2,
+                1,
+                0,
+                1,
+                773,
+                4,
+                3,
+                2,
+                2,
+                26
+            ],
+            [
+                3,
+                2,
+                3,
+                16,
+                2,
+                719,
+                4,
+                2,
+                3,
+                5
+            ],
+            [
+                4,
+                1,
+                3,
+                0,
+                1,
+                8,
+                809,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                4,
+                4,
+                6,
+                6,
+                2,
+                0,
+                842,
+                2,
+                14
+            ],
+            [
+                7,
+                9,
+                10,
+                8,
+                0,
+                11,
+                4,
+                2,
+                754,
+                8
+            ],
+            [
+                2,
+                1,
+                0,
+                4,
+                17,
+                4,
+                0,
+                18,
+                7,
+                785
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 2,
+        "neurons": [
+            128,
+            128
+        ],
+        "activation": "logistic",
+        "optimizer": "adam",
+        "accuracy": 0.9626190476190476,
+        "classification_report": {
+            "0": {
+                "precision": 0.973621103117506,
+                "recall": 0.9818621523579202,
+                "f1-score": 0.9777242624924745,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.985153764581124,
+                "recall": 0.991462113127001,
+                "f1-score": 0.9882978723404255,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9582338902147971,
+                "recall": 0.9616766467065868,
+                "f1-score": 0.9599521817095039,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9421965317919075,
+                "recall": 0.9367816091954023,
+                "f1-score": 0.9394812680115274,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9584859584859585,
+                "recall": 0.9643734643734644,
+                "f1-score": 0.9614206981016534,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9433465085638999,
+                "recall": 0.9433465085638999,
+                "f1-score": 0.9433465085638999,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9795673076923077,
+                "recall": 0.9854897218863361,
+                "f1-score": 0.9825195901145268,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9681456200227532,
+                "recall": 0.9670454545454545,
+                "f1-score": 0.9675952245594087,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9608091024020228,
+                "recall": 0.9348093480934809,
+                "f1-score": 0.9476309226932669,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9523809523809523,
+                "recall": 0.954653937947494,
+                "f1-score": 0.9535160905840286,
+                "support": 838.0
+            },
+            "accuracy": 0.9626190476190476,
+            "macro avg": {
+                "precision": 0.962194073925323,
+                "recall": 0.9621500956797041,
+                "f1-score": 0.9621484619170715,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9625739200376453,
+                "recall": 0.9626190476190476,
+                "f1-score": 0.9625733592038692,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                812,
+                0,
+                3,
+                1,
+                2,
+                3,
+                4,
+                0,
+                1,
+                1
+            ],
+            [
+                0,
+                929,
+                3,
+                1,
+                0,
+                1,
+                0,
+                1,
+                2,
+                0
+            ],
+            [
+                3,
+                2,
+                803,
+                6,
+                4,
+                2,
+                3,
+                6,
+                5,
+                1
+            ],
+            [
+                5,
+                0,
+                14,
+                815,
+                1,
+                16,
+                1,
+                5,
+                9,
+                4
+            ],
+            [
+                0,
+                1,
+                5,
+                0,
+                785,
+                3,
+                4,
+                2,
+                1,
+                13
+            ],
+            [
+                4,
+                1,
+                2,
+                16,
+                2,
+                716,
+                3,
+                2,
+                7,
+                6
+            ],
+            [
+                1,
+                2,
+                1,
+                0,
+                1,
+                6,
+                815,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                3,
+                3,
+                7,
+                6,
+                1,
+                0,
+                851,
+                1,
+                8
+            ],
+            [
+                7,
+                5,
+                4,
+                15,
+                3,
+                7,
+                2,
+                3,
+                760,
+                7
+            ],
+            [
+                2,
+                0,
+                0,
+                4,
+                15,
+                4,
+                0,
+                9,
+                4,
+                800
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 2,
+        "neurons": [
+            128,
+            128
+        ],
+        "activation": "logistic",
+        "optimizer": "sgd",
+        "accuracy": 0.9410714285714286,
+        "classification_report": {
+            "0": {
+                "precision": 0.9629186602870813,
+                "recall": 0.973397823458283,
+                "f1-score": 0.968129885748647,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9633123689727463,
+                "recall": 0.9807897545357525,
+                "f1-score": 0.9719725013220518,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9438470728793309,
+                "recall": 0.9461077844311377,
+                "f1-score": 0.9449760765550239,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9320046893317703,
+                "recall": 0.9137931034482759,
+                "f1-score": 0.922809053975624,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9330085261875761,
+                "recall": 0.941031941031941,
+                "f1-score": 0.9370030581039756,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9072847682119205,
+                "recall": 0.9025032938076416,
+                "f1-score": 0.904887714663144,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9698067632850241,
+                "recall": 0.9709794437726723,
+                "f1-score": 0.970392749244713,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9458850056369785,
+                "recall": 0.9534090909090909,
+                "f1-score": 0.9496321448783248,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9255050505050505,
+                "recall": 0.9015990159901599,
+                "f1-score": 0.9133956386292835,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9199522102747909,
+                "recall": 0.918854415274463,
+                "f1-score": 0.9194029850746268,
+                "support": 838.0
+            },
+            "accuracy": 0.9410714285714286,
+            "macro avg": {
+                "precision": 0.940352511557227,
+                "recall": 0.9402465666659419,
+                "f1-score": 0.9402601808195413,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9409257670494562,
+                "recall": 0.9410714285714286,
+                "f1-score": 0.9409586025806598,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                805,
+                0,
+                4,
+                1,
+                4,
+                4,
+                5,
+                0,
+                3,
+                1
+            ],
+            [
+                0,
+                919,
+                2,
+                3,
+                0,
+                2,
+                0,
+                1,
+                9,
+                1
+            ],
+            [
+                6,
+                1,
+                790,
+                5,
+                9,
+                2,
+                3,
+                8,
+                10,
+                1
+            ],
+            [
+                2,
+                3,
+                21,
+                795,
+                1,
+                25,
+                1,
+                8,
+                11,
+                3
+            ],
+            [
+                2,
+                2,
+                5,
+                0,
+                766,
+                1,
+                6,
+                2,
+                4,
+                26
+            ],
+            [
+                4,
+                3,
+                6,
+                26,
+                6,
+                685,
+                6,
+                4,
+                12,
+                7
+            ],
+            [
+                5,
+                2,
+                2,
+                0,
+                4,
+                9,
+                803,
+                0,
+                2,
+                0
+            ],
+            [
+                1,
+                7,
+                2,
+                3,
+                7,
+                1,
+                0,
+                839,
+                2,
+                18
+            ],
+            [
+                6,
+                15,
+                5,
+                13,
+                3,
+                22,
+                4,
+                2,
+                733,
+                10
+            ],
+            [
+                5,
+                2,
+                0,
+                7,
+                21,
+                4,
+                0,
+                23,
+                6,
+                770
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 2,
+        "neurons": [
+            128,
+            128
+        ],
+        "activation": "tanh",
+        "optimizer": "adam",
+        "accuracy": 0.9619047619047619,
+        "classification_report": {
+            "0": {
+                "precision": 0.973621103117506,
+                "recall": 0.9818621523579202,
+                "f1-score": 0.9777242624924745,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9799154334038055,
+                "recall": 0.9893276414087513,
+                "f1-score": 0.984599044078598,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9582836710369488,
+                "recall": 0.962874251497006,
+                "f1-score": 0.9605734767025089,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9557109557109557,
+                "recall": 0.9425287356321839,
+                "f1-score": 0.9490740740740741,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9642416769420469,
+                "recall": 0.9606879606879607,
+                "f1-score": 0.9624615384615385,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9407114624505929,
+                "recall": 0.9407114624505929,
+                "f1-score": 0.9407114624505929,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.973621103117506,
+                "recall": 0.9818621523579202,
+                "f1-score": 0.9777242624924745,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9670454545454545,
+                "recall": 0.9670454545454545,
+                "f1-score": 0.9670454545454545,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9547169811320755,
+                "recall": 0.933579335793358,
+                "f1-score": 0.9440298507462687,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9466824644549763,
+                "recall": 0.9534606205250596,
+                "f1-score": 0.9500594530321046,
+                "support": 838.0
+            },
+            "accuracy": 0.9619047619047619,
+            "macro avg": {
+                "precision": 0.961455030591187,
+                "recall": 0.9613939767256208,
+                "f1-score": 0.9614002879076089,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.961855118850545,
+                "recall": 0.9619047619047619,
+                "f1-score": 0.961855751733399,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                812,
+                0,
+                4,
+                0,
+                2,
+                4,
+                3,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                927,
+                3,
+                2,
+                0,
+                1,
+                0,
+                1,
+                3,
+                0
+            ],
+            [
+                4,
+                3,
+                804,
+                4,
+                6,
+                2,
+                0,
+                5,
+                5,
+                2
+            ],
+            [
+                3,
+                0,
+                10,
+                820,
+                1,
+                13,
+                1,
+                7,
+                10,
+                5
+            ],
+            [
+                0,
+                3,
+                3,
+                0,
+                782,
+                3,
+                5,
+                0,
+                2,
+                16
+            ],
+            [
+                4,
+                2,
+                2,
+                14,
+                1,
+                714,
+                7,
+                3,
+                8,
+                4
+            ],
+            [
+                2,
+                1,
+                4,
+                0,
+                0,
+                7,
+                812,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                4,
+                3,
+                5,
+                2,
+                2,
+                1,
+                851,
+                2,
+                9
+            ],
+            [
+                5,
+                6,
+                6,
+                9,
+                2,
+                10,
+                5,
+                3,
+                759,
+                8
+            ],
+            [
+                3,
+                0,
+                0,
+                4,
+                15,
+                3,
+                0,
+                9,
+                5,
+                799
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 2,
+        "neurons": [
+            128,
+            128
+        ],
+        "activation": "tanh",
+        "optimizer": "sgd",
+        "accuracy": 0.9532142857142857,
+        "classification_report": {
+            "0": {
+                "precision": 0.9688622754491018,
+                "recall": 0.9782345828295043,
+                "f1-score": 0.97352587244284,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9778481012658228,
+                "recall": 0.9893276414087513,
+                "f1-score": 0.983554376657825,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9553679131483716,
+                "recall": 0.948502994011976,
+                "f1-score": 0.9519230769230769,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9439906651108518,
+                "recall": 0.9298850574712644,
+                "f1-score": 0.9368847712796757,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9505562422744128,
+                "recall": 0.9447174447174447,
+                "f1-score": 0.9476278496611213,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9340369393139841,
+                "recall": 0.932806324110672,
+                "f1-score": 0.9334212261041529,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9630952380952381,
+                "recall": 0.9782345828295043,
+                "f1-score": 0.9706058788242351,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9635119726339795,
+                "recall": 0.9602272727272727,
+                "f1-score": 0.9618668184405236,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9454314720812182,
+                "recall": 0.9163591635916359,
+                "f1-score": 0.9306683322923173,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9243306169965075,
+                "recall": 0.9474940334128878,
+                "f1-score": 0.9357690041249264,
+                "support": 838.0
+            },
+            "accuracy": 0.9532142857142857,
+            "macro avg": {
+                "precision": 0.9527031436369487,
+                "recall": 0.9525789097110913,
+                "f1-score": 0.9525847206750694,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9531879545983653,
+                "recall": 0.9532142857142857,
+                "f1-score": 0.9531451535173272,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                809,
+                0,
+                4,
+                0,
+                1,
+                4,
+                6,
+                0,
+                0,
+                3
+            ],
+            [
+                0,
+                927,
+                2,
+                1,
+                0,
+                3,
+                0,
+                1,
+                3,
+                0
+            ],
+            [
+                3,
+                3,
+                792,
+                6,
+                7,
+                4,
+                1,
+                8,
+                8,
+                3
+            ],
+            [
+                4,
+                3,
+                14,
+                809,
+                2,
+                12,
+                2,
+                5,
+                13,
+                6
+            ],
+            [
+                1,
+                2,
+                3,
+                1,
+                769,
+                3,
+                9,
+                2,
+                2,
+                22
+            ],
+            [
+                5,
+                3,
+                2,
+                14,
+                4,
+                708,
+                7,
+                2,
+                7,
+                7
+            ],
+            [
+                2,
+                1,
+                2,
+                0,
+                1,
+                8,
+                809,
+                0,
+                4,
+                0
+            ],
+            [
+                2,
+                3,
+                4,
+                6,
+                4,
+                0,
+                1,
+                845,
+                2,
+                13
+            ],
+            [
+                6,
+                6,
+                5,
+                16,
+                4,
+                13,
+                5,
+                2,
+                745,
+                11
+            ],
+            [
+                3,
+                0,
+                1,
+                4,
+                17,
+                3,
+                0,
+                12,
+                4,
+                794
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 2,
+        "neurons": [
+            128,
+            128
+        ],
+        "activation": "relu",
+        "optimizer": "adam",
+        "accuracy": 0.9708333333333333,
+        "classification_report": {
+            "0": {
+                "precision": 0.9794933655006032,
+                "recall": 0.9818621523579202,
+                "f1-score": 0.9806763285024155,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9810326659641728,
+                "recall": 0.9935965848452508,
+                "f1-score": 0.9872746553552492,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9678953626634959,
+                "recall": 0.9748502994011976,
+                "f1-score": 0.9713603818615751,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9684947491248541,
+                "recall": 0.9540229885057471,
+                "f1-score": 0.9612044006948466,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9775840597758406,
+                "recall": 0.9643734643734644,
+                "f1-score": 0.9709338280766853,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9601063829787234,
+                "recall": 0.9512516469038208,
+                "f1-score": 0.9556585043017869,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9807923169267707,
+                "recall": 0.9879081015719468,
+                "f1-score": 0.9843373493975903,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9782608695652174,
+                "recall": 0.9715909090909091,
+                "f1-score": 0.9749144811858609,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9640198511166254,
+                "recall": 0.955719557195572,
+                "f1-score": 0.9598517603458925,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9485981308411215,
+                "recall": 0.9689737470167065,
+                "f1-score": 0.9586776859504132,
+                "support": 838.0
+            },
+            "accuracy": 0.9708333333333333,
+            "macro avg": {
+                "precision": 0.9706277754457424,
+                "recall": 0.9704149451262536,
+                "f1-score": 0.9704889375672316,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9708552421544003,
+                "recall": 0.9708333333333333,
+                "f1-score": 0.9708116044524759,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                812,
+                0,
+                1,
+                1,
+                2,
+                1,
+                5,
+                1,
+                1,
+                3
+            ],
+            [
+                0,
+                931,
+                2,
+                2,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                3,
+                4,
+                814,
+                4,
+                3,
+                0,
+                0,
+                3,
+                3,
+                1
+            ],
+            [
+                2,
+                1,
+                8,
+                830,
+                0,
+                16,
+                0,
+                3,
+                5,
+                5
+            ],
+            [
+                0,
+                2,
+                3,
+                0,
+                785,
+                0,
+                6,
+                1,
+                1,
+                16
+            ],
+            [
+                4,
+                4,
+                2,
+                7,
+                1,
+                722,
+                3,
+                1,
+                8,
+                7
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                0,
+                5,
+                817,
+                0,
+                2,
+                0
+            ],
+            [
+                0,
+                2,
+                3,
+                5,
+                5,
+                1,
+                0,
+                855,
+                3,
+                6
+            ],
+            [
+                4,
+                4,
+                6,
+                6,
+                2,
+                5,
+                1,
+                2,
+                777,
+                6
+            ],
+            [
+                3,
+                0,
+                1,
+                2,
+                5,
+                2,
+                0,
+                8,
+                5,
+                812
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 2,
+        "neurons": [
+            128,
+            128
+        ],
+        "activation": "relu",
+        "optimizer": "sgd",
+        "accuracy": 0.9603571428571429,
+        "classification_report": {
+            "0": {
+                "precision": 0.9758454106280193,
+                "recall": 0.9770253929866989,
+                "f1-score": 0.9764350453172206,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.979957805907173,
+                "recall": 0.991462113127001,
+                "f1-score": 0.9856763925729443,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9698067632850241,
+                "recall": 0.9616766467065868,
+                "f1-score": 0.9657245941070355,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9461009174311926,
+                "recall": 0.9482758620689655,
+                "f1-score": 0.947187141216992,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9661654135338346,
+                "recall": 0.9471744471744472,
+                "f1-score": 0.956575682382134,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9356955380577427,
+                "recall": 0.9393939393939394,
+                "f1-score": 0.9375410913872453,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9806996381182147,
+                "recall": 0.9830713422007256,
+                "f1-score": 0.9818840579710145,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9702176403207331,
+                "recall": 0.9625,
+                "f1-score": 0.966343411294923,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9442379182156134,
+                "recall": 0.9372693726937269,
+                "f1-score": 0.9407407407407408,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9309941520467836,
+                "recall": 0.9498806682577565,
+                "f1-score": 0.9403425871234495,
+                "support": 838.0
+            },
+            "accuracy": 0.9603571428571429,
+            "macro avg": {
+                "precision": 0.9599721197544332,
+                "recall": 0.9597729784609849,
+                "f1-score": 0.95984507441137,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9604120565911192,
+                "recall": 0.9603571428571429,
+                "f1-score": 0.9603570634751855,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                808,
+                0,
+                2,
+                1,
+                3,
+                3,
+                4,
+                0,
+                3,
+                3
+            ],
+            [
+                0,
+                929,
+                2,
+                1,
+                0,
+                0,
+                0,
+                1,
+                4,
+                0
+            ],
+            [
+                3,
+                3,
+                803,
+                10,
+                3,
+                1,
+                2,
+                5,
+                3,
+                2
+            ],
+            [
+                1,
+                2,
+                5,
+                825,
+                1,
+                19,
+                0,
+                3,
+                10,
+                4
+            ],
+            [
+                2,
+                3,
+                4,
+                0,
+                771,
+                3,
+                4,
+                2,
+                4,
+                21
+            ],
+            [
+                4,
+                3,
+                3,
+                12,
+                2,
+                713,
+                4,
+                0,
+                9,
+                9
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                9,
+                813,
+                0,
+                3,
+                0
+            ],
+            [
+                1,
+                2,
+                1,
+                8,
+                5,
+                2,
+                0,
+                847,
+                3,
+                11
+            ],
+            [
+                5,
+                6,
+                5,
+                11,
+                2,
+                9,
+                1,
+                3,
+                762,
+                9
+            ],
+            [
+                3,
+                0,
+                2,
+                4,
+                11,
+                3,
+                1,
+                12,
+                6,
+                796
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 3,
+        "neurons": [
+            64,
+            64,
+            64
+        ],
+        "activation": "logistic",
+        "optimizer": "adam",
+        "accuracy": 0.9451190476190476,
+        "classification_report": {
+            "0": {
+                "precision": 0.9595719381688466,
+                "recall": 0.9758162031438936,
+                "f1-score": 0.9676258992805755,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9643979057591623,
+                "recall": 0.9829242262540021,
+                "f1-score": 0.9735729386892178,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9277389277389277,
+                "recall": 0.9532934131736527,
+                "f1-score": 0.9403425871234495,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9324009324009324,
+                "recall": 0.9195402298850575,
+                "f1-score": 0.9259259259259259,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9656488549618321,
+                "recall": 0.9324324324324325,
+                "f1-score": 0.94875,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9046997389033943,
+                "recall": 0.9130434782608695,
+                "f1-score": 0.9088524590163934,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9707317073170731,
+                "recall": 0.9625151148730351,
+                "f1-score": 0.9666059502125076,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9514672686230248,
+                "recall": 0.9579545454545455,
+                "f1-score": 0.9546998867497168,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9438058748403576,
+                "recall": 0.9089790897908979,
+                "f1-score": 0.9260651629072681,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9268004722550177,
+                "recall": 0.9367541766109785,
+                "f1-score": 0.9317507418397626,
+                "support": 838.0
+            },
+            "accuracy": 0.9451190476190476,
+            "macro avg": {
+                "precision": 0.9447263620968569,
+                "recall": 0.9443252909879366,
+                "f1-score": 0.9444191551744817,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.94521692934688,
+                "recall": 0.9451190476190476,
+                "f1-score": 0.945062466038659,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                807,
+                0,
+                5,
+                1,
+                0,
+                6,
+                3,
+                2,
+                1,
+                2
+            ],
+            [
+                0,
+                921,
+                4,
+                3,
+                0,
+                2,
+                0,
+                1,
+                5,
+                1
+            ],
+            [
+                4,
+                2,
+                796,
+                15,
+                5,
+                3,
+                0,
+                7,
+                2,
+                1
+            ],
+            [
+                5,
+                3,
+                16,
+                800,
+                0,
+                22,
+                2,
+                7,
+                10,
+                5
+            ],
+            [
+                0,
+                4,
+                9,
+                0,
+                759,
+                3,
+                10,
+                2,
+                2,
+                25
+            ],
+            [
+                12,
+                2,
+                5,
+                15,
+                1,
+                693,
+                7,
+                2,
+                17,
+                5
+            ],
+            [
+                2,
+                4,
+                5,
+                0,
+                2,
+                16,
+                796,
+                0,
+                2,
+                0
+            ],
+            [
+                3,
+                4,
+                8,
+                4,
+                2,
+                1,
+                0,
+                843,
+                1,
+                14
+            ],
+            [
+                6,
+                15,
+                10,
+                15,
+                2,
+                14,
+                1,
+                2,
+                739,
+                9
+            ],
+            [
+                2,
+                0,
+                0,
+                5,
+                15,
+                6,
+                1,
+                20,
+                4,
+                785
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 3,
+        "neurons": [
+            64,
+            64,
+            64
+        ],
+        "activation": "logistic",
+        "optimizer": "sgd",
+        "accuracy": 0.9166666666666666,
+        "classification_report": {
+            "0": {
+                "precision": 0.9625603864734299,
+                "recall": 0.9637243047158404,
+                "f1-score": 0.963141993957704,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9518828451882845,
+                "recall": 0.9711846318036286,
+                "f1-score": 0.9614368726888537,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.8988372093023256,
+                "recall": 0.925748502994012,
+                "f1-score": 0.912094395280236,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.8946745562130177,
+                "recall": 0.8689655172413793,
+                "f1-score": 0.8816326530612245,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9106487148102815,
+                "recall": 0.914004914004914,
+                "f1-score": 0.9123237277743715,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.8779527559055118,
+                "recall": 0.8814229249011858,
+                "f1-score": 0.8796844181459567,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9573170731707317,
+                "recall": 0.9492140266021766,
+                "f1-score": 0.9532483302975107,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9285714285714286,
+                "recall": 0.9454545454545454,
+                "f1-score": 0.9369369369369369,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.8770595690747782,
+                "recall": 0.8511685116851169,
+                "f1-score": 0.8639200998751561,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.8972188633615478,
+                "recall": 0.8854415274463007,
+                "f1-score": 0.8912912912912913,
+                "support": 838.0
+            },
+            "accuracy": 0.9166666666666666,
+            "macro avg": {
+                "precision": 0.9156723402071337,
+                "recall": 0.91563294068491,
+                "f1-score": 0.915571071930924,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9164577034077848,
+                "recall": 0.9166666666666666,
+                "f1-score": 0.9164792871044058,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                797,
+                0,
+                3,
+                2,
+                5,
+                9,
+                6,
+                3,
+                2,
+                0
+            ],
+            [
+                0,
+                910,
+                9,
+                5,
+                0,
+                0,
+                0,
+                0,
+                12,
+                1
+            ],
+            [
+                6,
+                4,
+                773,
+                19,
+                8,
+                1,
+                7,
+                7,
+                10,
+                0
+            ],
+            [
+                2,
+                1,
+                37,
+                756,
+                1,
+                31,
+                3,
+                9,
+                27,
+                3
+            ],
+            [
+                2,
+                4,
+                4,
+                0,
+                744,
+                2,
+                9,
+                4,
+                5,
+                40
+            ],
+            [
+                8,
+                0,
+                8,
+                34,
+                6,
+                669,
+                9,
+                7,
+                14,
+                4
+            ],
+            [
+                8,
+                3,
+                8,
+                0,
+                8,
+                14,
+                785,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                3,
+                9,
+                3,
+                4,
+                2,
+                0,
+                832,
+                2,
+                24
+            ],
+            [
+                1,
+                31,
+                9,
+                22,
+                5,
+                31,
+                1,
+                8,
+                692,
+                13
+            ],
+            [
+                3,
+                0,
+                0,
+                4,
+                36,
+                3,
+                0,
+                26,
+                24,
+                742
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 3,
+        "neurons": [
+            64,
+            64,
+            64
+        ],
+        "activation": "tanh",
+        "optimizer": "adam",
+        "accuracy": 0.9534523809523809,
+        "classification_report": {
+            "0": {
+                "precision": 0.9734299516908212,
+                "recall": 0.9746070133010882,
+                "f1-score": 0.9740181268882175,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9830328738069989,
+                "recall": 0.9893276414087513,
+                "f1-score": 0.9861702127659574,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.950354609929078,
+                "recall": 0.962874251497006,
+                "f1-score": 0.9565734681737061,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.940628637951106,
+                "recall": 0.9287356321839081,
+                "f1-score": 0.9346443030653557,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.965865992414665,
+                "recall": 0.9385749385749386,
+                "f1-score": 0.9520249221183801,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9310344827586207,
+                "recall": 0.924901185770751,
+                "f1-score": 0.9279576999339062,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9690107270560191,
+                "recall": 0.9830713422007256,
+                "f1-score": 0.9759903961584634,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9578107183580388,
+                "recall": 0.9545454545454546,
+                "f1-score": 0.9561752988047809,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.944792973651192,
+                "recall": 0.9261992619926199,
+                "f1-score": 0.9354037267080745,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9145496535796767,
+                "recall": 0.9451073985680191,
+                "f1-score": 0.9295774647887324,
+                "support": 838.0
+            },
+            "accuracy": 0.9534523809523809,
+            "macro avg": {
+                "precision": 0.9530510621196215,
+                "recall": 0.9527944120043262,
+                "f1-score": 0.9528535619405574,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9535292950073369,
+                "recall": 0.9534523809523809,
+                "f1-score": 0.9534225615026471,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                806,
+                0,
+                6,
+                0,
+                2,
+                3,
+                4,
+                0,
+                3,
+                3
+            ],
+            [
+                0,
+                927,
+                1,
+                3,
+                0,
+                1,
+                0,
+                1,
+                4,
+                0
+            ],
+            [
+                3,
+                2,
+                804,
+                4,
+                4,
+                3,
+                3,
+                8,
+                3,
+                1
+            ],
+            [
+                6,
+                2,
+                12,
+                808,
+                0,
+                20,
+                1,
+                5,
+                9,
+                7
+            ],
+            [
+                0,
+                2,
+                5,
+                0,
+                764,
+                2,
+                7,
+                4,
+                4,
+                26
+            ],
+            [
+                5,
+                1,
+                4,
+                17,
+                1,
+                702,
+                7,
+                1,
+                10,
+                11
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                7,
+                813,
+                0,
+                2,
+                0
+            ],
+            [
+                0,
+                3,
+                5,
+                7,
+                6,
+                1,
+                1,
+                840,
+                2,
+                15
+            ],
+            [
+                6,
+                4,
+                8,
+                13,
+                0,
+                11,
+                3,
+                4,
+                753,
+                11
+            ],
+            [
+                1,
+                1,
+                0,
+                6,
+                13,
+                4,
+                0,
+                14,
+                7,
+                792
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 3,
+        "neurons": [
+            64,
+            64,
+            64
+        ],
+        "activation": "tanh",
+        "optimizer": "sgd",
+        "accuracy": 0.9483333333333334,
+        "classification_report": {
+            "0": {
+                "precision": 0.9617224880382775,
+                "recall": 0.9721886336154776,
+                "f1-score": 0.9669272399278412,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9798941798941799,
+                "recall": 0.9882604055496265,
+                "f1-score": 0.9840595111583422,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9562043795620438,
+                "recall": 0.9413173652694611,
+                "f1-score": 0.9487024743512372,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9335664335664335,
+                "recall": 0.9206896551724137,
+                "f1-score": 0.9270833333333334,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9516728624535316,
+                "recall": 0.9434889434889435,
+                "f1-score": 0.9475632325724861,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9061277705345502,
+                "recall": 0.9156785243741765,
+                "f1-score": 0.9108781127129751,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9710843373493976,
+                "recall": 0.9746070133010882,
+                "f1-score": 0.9728424864212432,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9446327683615819,
+                "recall": 0.95,
+                "f1-score": 0.9473087818696884,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.94125,
+                "recall": 0.9261992619926199,
+                "f1-score": 0.9336639801611903,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9305882352941176,
+                "recall": 0.9439140811455847,
+                "f1-score": 0.9372037914691943,
+                "support": 838.0
+            },
+            "accuracy": 0.9483333333333334,
+            "macro avg": {
+                "precision": 0.9476743455054113,
+                "recall": 0.947634388390939,
+                "f1-score": 0.9476232943977532,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9483314595834665,
+                "recall": 0.9483333333333334,
+                "f1-score": 0.9483015085428634,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                804,
+                0,
+                3,
+                1,
+                4,
+                6,
+                4,
+                1,
+                2,
+                2
+            ],
+            [
+                0,
+                926,
+                1,
+                1,
+                0,
+                2,
+                1,
+                2,
+                4,
+                0
+            ],
+            [
+                7,
+                0,
+                786,
+                10,
+                6,
+                4,
+                3,
+                13,
+                5,
+                1
+            ],
+            [
+                5,
+                4,
+                16,
+                801,
+                1,
+                24,
+                1,
+                3,
+                9,
+                6
+            ],
+            [
+                0,
+                2,
+                4,
+                1,
+                768,
+                4,
+                6,
+                5,
+                5,
+                19
+            ],
+            [
+                6,
+                2,
+                6,
+                20,
+                4,
+                695,
+                5,
+                4,
+                14,
+                3
+            ],
+            [
+                5,
+                1,
+                1,
+                0,
+                2,
+                10,
+                806,
+                0,
+                2,
+                0
+            ],
+            [
+                1,
+                6,
+                3,
+                8,
+                6,
+                3,
+                0,
+                836,
+                0,
+                17
+            ],
+            [
+                7,
+                4,
+                2,
+                11,
+                4,
+                13,
+                3,
+                5,
+                753,
+                11
+            ],
+            [
+                1,
+                0,
+                0,
+                5,
+                12,
+                6,
+                1,
+                16,
+                6,
+                791
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 3,
+        "neurons": [
+            64,
+            64,
+            64
+        ],
+        "activation": "relu",
+        "optimizer": "adam",
+        "accuracy": 0.965952380952381,
+        "classification_report": {
+            "0": {
+                "precision": 0.9782082324455206,
+                "recall": 0.9770253929866989,
+                "f1-score": 0.9776164549304295,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.985153764581124,
+                "recall": 0.991462113127001,
+                "f1-score": 0.9882978723404255,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9654761904761905,
+                "recall": 0.9712574850299401,
+                "f1-score": 0.9683582089552238,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9515570934256056,
+                "recall": 0.9482758620689655,
+                "f1-score": 0.9499136442141624,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9751243781094527,
+                "recall": 0.9631449631449631,
+                "f1-score": 0.969097651421508,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9490196078431372,
+                "recall": 0.9565217391304348,
+                "f1-score": 0.952755905511811,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9760479041916168,
+                "recall": 0.9854897218863361,
+                "f1-score": 0.9807460890493381,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9693181818181819,
+                "recall": 0.9693181818181819,
+                "f1-score": 0.9693181818181819,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.963151207115629,
+                "recall": 0.932349323493235,
+                "f1-score": 0.9475,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.943728018757327,
+                "recall": 0.9606205250596659,
+                "f1-score": 0.9520993494973389,
+                "support": 838.0
+            },
+            "accuracy": 0.965952380952381,
+            "macro avg": {
+                "precision": 0.9656784578763785,
+                "recall": 0.9655465307745421,
+                "f1-score": 0.9655703357738419,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9659796821401195,
+                "recall": 0.965952380952381,
+                "f1-score": 0.9659248667401812,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                808,
+                0,
+                2,
+                2,
+                2,
+                4,
+                4,
+                1,
+                1,
+                3
+            ],
+            [
+                0,
+                929,
+                3,
+                1,
+                0,
+                0,
+                1,
+                1,
+                2,
+                0
+            ],
+            [
+                3,
+                4,
+                811,
+                6,
+                2,
+                0,
+                2,
+                5,
+                2,
+                0
+            ],
+            [
+                2,
+                1,
+                9,
+                825,
+                0,
+                17,
+                1,
+                4,
+                6,
+                5
+            ],
+            [
+                1,
+                1,
+                2,
+                0,
+                784,
+                1,
+                3,
+                2,
+                4,
+                16
+            ],
+            [
+                2,
+                1,
+                3,
+                7,
+                0,
+                726,
+                4,
+                0,
+                8,
+                8
+            ],
+            [
+                4,
+                0,
+                1,
+                0,
+                1,
+                4,
+                815,
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                4,
+                7,
+                6,
+                2,
+                0,
+                853,
+                0,
+                6
+            ],
+            [
+                2,
+                5,
+                5,
+                12,
+                2,
+                10,
+                5,
+                4,
+                758,
+                10
+            ],
+            [
+                3,
+                1,
+                0,
+                7,
+                7,
+                1,
+                0,
+                9,
+                5,
+                805
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 3,
+        "neurons": [
+            64,
+            64,
+            64
+        ],
+        "activation": "relu",
+        "optimizer": "sgd",
+        "accuracy": 0.9570238095238095,
+        "classification_report": {
+            "0": {
+                "precision": 0.9757281553398058,
+                "recall": 0.9721886336154776,
+                "f1-score": 0.9739551786795881,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9779179810725552,
+                "recall": 0.9925293489861259,
+                "f1-score": 0.9851694915254238,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9627403846153846,
+                "recall": 0.9592814371257485,
+                "f1-score": 0.9610077984403119,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9454756380510441,
+                "recall": 0.9367816091954023,
+                "f1-score": 0.941108545034642,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9592592592592593,
+                "recall": 0.9545454545454546,
+                "f1-score": 0.9568965517241379,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9347258485639687,
+                "recall": 0.9433465085638999,
+                "f1-score": 0.939016393442623,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9711538461538461,
+                "recall": 0.9770253929866989,
+                "f1-score": 0.974080771549126,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9600912200684151,
+                "recall": 0.9568181818181818,
+                "f1-score": 0.958451906659078,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9519595448798989,
+                "recall": 0.9261992619926199,
+                "f1-score": 0.9389027431421446,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.927485380116959,
+                "recall": 0.9463007159904535,
+                "f1-score": 0.9367985823981099,
+                "support": 838.0
+            },
+            "accuracy": 0.9570238095238095,
+            "macro avg": {
+                "precision": 0.9566537258121135,
+                "recall": 0.9565016544820063,
+                "f1-score": 0.9565387962595185,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.957045556909661,
+                "recall": 0.9570238095238095,
+                "f1-score": 0.9569958983436708,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                804,
+                0,
+                2,
+                1,
+                5,
+                5,
+                5,
+                1,
+                4,
+                0
+            ],
+            [
+                0,
+                930,
+                4,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                3,
+                3,
+                801,
+                9,
+                5,
+                0,
+                1,
+                9,
+                3,
+                1
+            ],
+            [
+                2,
+                3,
+                7,
+                815,
+                0,
+                19,
+                5,
+                5,
+                8,
+                6
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                777,
+                3,
+                5,
+                2,
+                2,
+                22
+            ],
+            [
+                4,
+                2,
+                3,
+                12,
+                1,
+                716,
+                5,
+                2,
+                9,
+                5
+            ],
+            [
+                4,
+                1,
+                1,
+                1,
+                1,
+                8,
+                808,
+                0,
+                3,
+                0
+            ],
+            [
+                2,
+                3,
+                6,
+                7,
+                5,
+                1,
+                0,
+                842,
+                1,
+                13
+            ],
+            [
+                3,
+                7,
+                6,
+                11,
+                4,
+                9,
+                2,
+                3,
+                753,
+                15
+            ],
+            [
+                1,
+                1,
+                1,
+                5,
+                12,
+                5,
+                0,
+                13,
+                7,
+                793
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 3,
+        "neurons": [
+            128,
+            128,
+            128
+        ],
+        "activation": "logistic",
+        "optimizer": "adam",
+        "accuracy": 0.9563095238095238,
+        "classification_report": {
+            "0": {
+                "precision": 0.9711191335740073,
+                "recall": 0.9758162031438936,
+                "f1-score": 0.9734620024125452,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9788359788359788,
+                "recall": 0.9871931696905016,
+                "f1-score": 0.9829968119022316,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9545454545454546,
+                "recall": 0.9556886227544911,
+                "f1-score": 0.9551166965888689,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9469434832756632,
+                "recall": 0.9436781609195403,
+                "f1-score": 0.945308002302821,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9638403990024937,
+                "recall": 0.9496314496314496,
+                "f1-score": 0.9566831683168316,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9428191489361702,
+                "recall": 0.9341238471673254,
+                "f1-score": 0.9384513567174056,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9665071770334929,
+                "recall": 0.9770253929866989,
+                "f1-score": 0.9717378232110644,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9625,
+                "recall": 0.9625,
+                "f1-score": 0.9625,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.950507614213198,
+                "recall": 0.9212792127921279,
+                "f1-score": 0.9356652092442224,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9223638470451911,
+                "recall": 0.9498806682577565,
+                "f1-score": 0.9359200470311582,
+                "support": 838.0
+            },
+            "accuracy": 0.9563095238095238,
+            "macro avg": {
+                "precision": 0.955998223646165,
+                "recall": 0.9556816727343784,
+                "f1-score": 0.955784111772715,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.956350234410331,
+                "recall": 0.9563095238095238,
+                "f1-score": 0.9562750197005181,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                807,
+                1,
+                1,
+                1,
+                3,
+                5,
+                5,
+                0,
+                2,
+                2
+            ],
+            [
+                0,
+                925,
+                4,
+                3,
+                0,
+                0,
+                1,
+                1,
+                2,
+                1
+            ],
+            [
+                4,
+                4,
+                798,
+                5,
+                3,
+                0,
+                5,
+                9,
+                7,
+                0
+            ],
+            [
+                3,
+                0,
+                14,
+                821,
+                0,
+                15,
+                0,
+                4,
+                8,
+                5
+            ],
+            [
+                1,
+                1,
+                3,
+                0,
+                773,
+                0,
+                5,
+                0,
+                3,
+                28
+            ],
+            [
+                3,
+                2,
+                2,
+                13,
+                3,
+                709,
+                7,
+                3,
+                10,
+                7
+            ],
+            [
+                3,
+                2,
+                2,
+                0,
+                2,
+                8,
+                808,
+                0,
+                2,
+                0
+            ],
+            [
+                1,
+                3,
+                6,
+                2,
+                3,
+                1,
+                0,
+                847,
+                2,
+                15
+            ],
+            [
+                7,
+                7,
+                6,
+                16,
+                1,
+                9,
+                5,
+                4,
+                749,
+                9
+            ],
+            [
+                2,
+                0,
+                0,
+                6,
+                14,
+                5,
+                0,
+                12,
+                3,
+                796
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 3,
+        "neurons": [
+            128,
+            128,
+            128
+        ],
+        "activation": "logistic",
+        "optimizer": "sgd",
+        "accuracy": 0.9261904761904762,
+        "classification_report": {
+            "0": {
+                "precision": 0.9685990338164251,
+                "recall": 0.969770253929867,
+                "f1-score": 0.9691842900302114,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9601259181532005,
+                "recall": 0.9765208110992529,
+                "f1-score": 0.9682539682539683,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9226190476190477,
+                "recall": 0.9281437125748503,
+                "f1-score": 0.9253731343283582,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9131455399061033,
+                "recall": 0.8942528735632184,
+                "f1-score": 0.9036004645760743,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9240196078431373,
+                "recall": 0.9262899262899262,
+                "f1-score": 0.9251533742331288,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.8761408083441982,
+                "recall": 0.8853754940711462,
+                "f1-score": 0.8807339449541285,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9602409638554217,
+                "recall": 0.9637243047158404,
+                "f1-score": 0.9619794809897405,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9508196721311475,
+                "recall": 0.9227272727272727,
+                "f1-score": 0.936562860438293,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.90125,
+                "recall": 0.8868388683886839,
+                "f1-score": 0.8939863608183509,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.8767441860465116,
+                "recall": 0.8997613365155132,
+                "f1-score": 0.8881036513545347,
+                "support": 838.0
+            },
+            "accuracy": 0.9261904761904762,
+            "macro avg": {
+                "precision": 0.9253704777715193,
+                "recall": 0.9253404853875573,
+                "f1-score": 0.9252931529976788,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9262981204243248,
+                "recall": 0.9261904761904762,
+                "f1-score": 0.9261802830291547,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                802,
+                0,
+                4,
+                0,
+                4,
+                6,
+                7,
+                0,
+                4,
+                0
+            ],
+            [
+                0,
+                915,
+                2,
+                8,
+                0,
+                0,
+                0,
+                2,
+                10,
+                0
+            ],
+            [
+                6,
+                6,
+                775,
+                9,
+                6,
+                5,
+                8,
+                4,
+                15,
+                1
+            ],
+            [
+                1,
+                6,
+                23,
+                778,
+                0,
+                34,
+                0,
+                9,
+                16,
+                3
+            ],
+            [
+                2,
+                1,
+                3,
+                0,
+                754,
+                4,
+                7,
+                0,
+                3,
+                40
+            ],
+            [
+                3,
+                4,
+                11,
+                28,
+                6,
+                672,
+                6,
+                3,
+                19,
+                7
+            ],
+            [
+                8,
+                1,
+                6,
+                0,
+                3,
+                10,
+                797,
+                0,
+                2,
+                0
+            ],
+            [
+                0,
+                8,
+                4,
+                7,
+                1,
+                2,
+                0,
+                812,
+                2,
+                44
+            ],
+            [
+                3,
+                11,
+                12,
+                15,
+                7,
+                27,
+                5,
+                1,
+                721,
+                11
+            ],
+            [
+                3,
+                1,
+                0,
+                7,
+                35,
+                7,
+                0,
+                23,
+                8,
+                754
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 3,
+        "neurons": [
+            128,
+            128,
+            128
+        ],
+        "activation": "tanh",
+        "optimizer": "adam",
+        "accuracy": 0.9632142857142857,
+        "classification_report": {
+            "0": {
+                "precision": 0.9793187347931873,
+                "recall": 0.973397823458283,
+                "f1-score": 0.976349302607641,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9799789251844047,
+                "recall": 0.9925293489861259,
+                "f1-score": 0.9862142099681867,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9572953736654805,
+                "recall": 0.9664670658682635,
+                "f1-score": 0.9618593563766389,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9524913093858632,
+                "recall": 0.9448275862068966,
+                "f1-score": 0.9486439699942296,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9632352941176471,
+                "recall": 0.9656019656019657,
+                "f1-score": 0.9644171779141104,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9470198675496688,
+                "recall": 0.9420289855072463,
+                "f1-score": 0.9445178335535006,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9735894357743097,
+                "recall": 0.9806529625151149,
+                "f1-score": 0.9771084337349397,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9670828603859251,
+                "recall": 0.9681818181818181,
+                "f1-score": 0.9676320272572402,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9622641509433962,
+                "recall": 0.940959409594096,
+                "f1-score": 0.9514925373134329,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9466192170818505,
+                "recall": 0.9522673031026253,
+                "f1-score": 0.9494348602022605,
+                "support": 838.0
+            },
+            "accuracy": 0.9632142857142857,
+            "macro avg": {
+                "precision": 0.9628895168881734,
+                "recall": 0.9626914269022435,
+                "f1-score": 0.9627669708922179,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9631888774745991,
+                "recall": 0.9632142857142857,
+                "f1-score": 0.9631780627768878,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                805,
+                0,
+                3,
+                1,
+                3,
+                2,
+                5,
+                3,
+                2,
+                3
+            ],
+            [
+                0,
+                930,
+                3,
+                1,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                3,
+                807,
+                7,
+                4,
+                0,
+                1,
+                5,
+                7,
+                0
+            ],
+            [
+                1,
+                2,
+                14,
+                822,
+                1,
+                15,
+                2,
+                4,
+                6,
+                3
+            ],
+            [
+                0,
+                2,
+                3,
+                0,
+                786,
+                1,
+                4,
+                1,
+                0,
+                17
+            ],
+            [
+                4,
+                4,
+                3,
+                13,
+                4,
+                715,
+                5,
+                1,
+                5,
+                5
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                3,
+                8,
+                811,
+                0,
+                3,
+                0
+            ],
+            [
+                1,
+                3,
+                5,
+                3,
+                2,
+                0,
+                1,
+                852,
+                2,
+                11
+            ],
+            [
+                5,
+                5,
+                4,
+                12,
+                2,
+                8,
+                4,
+                2,
+                765,
+                6
+            ],
+            [
+                4,
+                0,
+                0,
+                4,
+                11,
+                5,
+                0,
+                12,
+                4,
+                798
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 3,
+        "neurons": [
+            128,
+            128,
+            128
+        ],
+        "activation": "tanh",
+        "optimizer": "sgd",
+        "accuracy": 0.9547619047619048,
+        "classification_report": {
+            "0": {
+                "precision": 0.9745762711864406,
+                "recall": 0.973397823458283,
+                "f1-score": 0.9739866908650938,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9810326659641728,
+                "recall": 0.9935965848452508,
+                "f1-score": 0.9872746553552492,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9577294685990339,
+                "recall": 0.9497005988023952,
+                "f1-score": 0.9536981358989778,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9315068493150684,
+                "recall": 0.9379310344827586,
+                "f1-score": 0.9347079037800687,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9509803921568627,
+                "recall": 0.9533169533169533,
+                "f1-score": 0.9521472392638037,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9316688567674113,
+                "recall": 0.9341238471673254,
+                "f1-score": 0.9328947368421052,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9723225030084236,
+                "recall": 0.9770253929866989,
+                "f1-score": 0.9746682750301568,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9597238204833142,
+                "recall": 0.9477272727272728,
+                "f1-score": 0.9536878216123499,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9486215538847118,
+                "recall": 0.931119311193112,
+                "f1-score": 0.9397889509621353,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9349881796690307,
+                "recall": 0.9439140811455847,
+                "f1-score": 0.9394299287410927,
+                "support": 838.0
+            },
+            "accuracy": 0.9547619047619048,
+            "macro avg": {
+                "precision": 0.9543150561034469,
+                "recall": 0.9541852900125635,
+                "f1-score": 0.9542284338351035,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.954758219148842,
+                "recall": 0.9547619047619048,
+                "f1-score": 0.9547379484628049,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                805,
+                0,
+                3,
+                2,
+                1,
+                2,
+                8,
+                1,
+                3,
+                2
+            ],
+            [
+                0,
+                931,
+                1,
+                2,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0
+            ],
+            [
+                1,
+                4,
+                793,
+                9,
+                7,
+                2,
+                1,
+                8,
+                8,
+                2
+            ],
+            [
+                4,
+                1,
+                11,
+                816,
+                0,
+                21,
+                0,
+                5,
+                8,
+                4
+            ],
+            [
+                0,
+                2,
+                5,
+                1,
+                776,
+                3,
+                5,
+                0,
+                3,
+                19
+            ],
+            [
+                6,
+                2,
+                3,
+                15,
+                2,
+                709,
+                4,
+                3,
+                9,
+                6
+            ],
+            [
+                3,
+                0,
+                2,
+                1,
+                0,
+                9,
+                808,
+                0,
+                4,
+                0
+            ],
+            [
+                1,
+                3,
+                6,
+                10,
+                7,
+                0,
+                1,
+                834,
+                1,
+                17
+            ],
+            [
+                3,
+                5,
+                4,
+                16,
+                8,
+                9,
+                3,
+                3,
+                757,
+                5
+            ],
+            [
+                3,
+                1,
+                0,
+                4,
+                15,
+                6,
+                1,
+                15,
+                2,
+                791
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 3,
+        "neurons": [
+            128,
+            128,
+            128
+        ],
+        "activation": "relu",
+        "optimizer": "adam",
+        "accuracy": 0.9709523809523809,
+        "classification_report": {
+            "0": {
+                "precision": 0.9818181818181818,
+                "recall": 0.9794437726723095,
+                "f1-score": 0.9806295399515739,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.985200845665962,
+                "recall": 0.9946638207043756,
+                "f1-score": 0.9899097185342538,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9636576787807737,
+                "recall": 0.9844311377245509,
+                "f1-score": 0.9739336492890995,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9658823529411765,
+                "recall": 0.9436781609195403,
+                "f1-score": 0.9546511627906977,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9800995024875622,
+                "recall": 0.9680589680589681,
+                "f1-score": 0.9740420271940667,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9564068692206077,
+                "recall": 0.9538866930171278,
+                "f1-score": 0.9551451187335093,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.977299880525687,
+                "recall": 0.9891172914147521,
+                "f1-score": 0.9831730769230769,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9750566893424036,
+                "recall": 0.9772727272727273,
+                "f1-score": 0.9761634506242906,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.97125,
+                "recall": 0.955719557195572,
+                "f1-score": 0.9634221946683199,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.950354609929078,
+                "recall": 0.9594272076372315,
+                "f1-score": 0.9548693586698337,
+                "support": 838.0
+            },
+            "accuracy": 0.9709523809523809,
+            "macro avg": {
+                "precision": 0.9707026610711432,
+                "recall": 0.9705699336617155,
+                "f1-score": 0.9705939297378722,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9709622318206376,
+                "recall": 0.9709523809523809,
+                "f1-score": 0.9709146711715453,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                810,
+                0,
+                1,
+                1,
+                2,
+                2,
+                5,
+                1,
+                2,
+                3
+            ],
+            [
+                0,
+                932,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                2,
+                822,
+                3,
+                1,
+                0,
+                0,
+                4,
+                2,
+                0
+            ],
+            [
+                2,
+                1,
+                12,
+                821,
+                0,
+                16,
+                1,
+                4,
+                7,
+                6
+            ],
+            [
+                0,
+                2,
+                3,
+                0,
+                788,
+                0,
+                4,
+                0,
+                0,
+                17
+            ],
+            [
+                3,
+                1,
+                2,
+                13,
+                0,
+                724,
+                6,
+                2,
+                5,
+                3
+            ],
+            [
+                1,
+                1,
+                0,
+                0,
+                0,
+                4,
+                818,
+                0,
+                3,
+                0
+            ],
+            [
+                2,
+                1,
+                4,
+                2,
+                3,
+                1,
+                0,
+                860,
+                1,
+                6
+            ],
+            [
+                1,
+                6,
+                5,
+                4,
+                1,
+                8,
+                2,
+                2,
+                777,
+                7
+            ],
+            [
+                5,
+                0,
+                2,
+                4,
+                9,
+                2,
+                1,
+                9,
+                2,
+                804
+            ]
+        ]
+    },
+    {
+        "dataset": "Digit",
+        "hidden_layers": 3,
+        "neurons": [
+            128,
+            128,
+            128
+        ],
+        "activation": "relu",
+        "optimizer": "sgd",
+        "accuracy": 0.9607142857142857,
+        "classification_report": {
+            "0": {
+                "precision": 0.9793438639125152,
+                "recall": 0.9746070133010882,
+                "f1-score": 0.9769696969696969,
+                "support": 827.0
+            },
+            "1": {
+                "precision": 0.9789473684210527,
+                "recall": 0.9925293489861259,
+                "f1-score": 0.985691573926868,
+                "support": 937.0
+            },
+            "2": {
+                "precision": 0.9516509433962265,
+                "recall": 0.9664670658682635,
+                "f1-score": 0.9590017825311943,
+                "support": 835.0
+            },
+            "3": {
+                "precision": 0.9502314814814815,
+                "recall": 0.9436781609195403,
+                "f1-score": 0.9469434832756632,
+                "support": 870.0
+            },
+            "4": {
+                "precision": 0.9626865671641791,
+                "recall": 0.9508599508599509,
+                "f1-score": 0.9567367119901112,
+                "support": 814.0
+            },
+            "5": {
+                "precision": 0.9421813403416557,
+                "recall": 0.9446640316205533,
+                "f1-score": 0.9434210526315789,
+                "support": 759.0
+            },
+            "6": {
+                "precision": 0.9771634615384616,
+                "recall": 0.9830713422007256,
+                "f1-score": 0.9801084990958409,
+                "support": 827.0
+            },
+            "7": {
+                "precision": 0.9615384615384616,
+                "recall": 0.9659090909090909,
+                "f1-score": 0.963718820861678,
+                "support": 880.0
+            },
+            "8": {
+                "precision": 0.9633375474083439,
+                "recall": 0.9372693726937269,
+                "f1-score": 0.9501246882793017,
+                "support": 813.0
+            },
+            "9": {
+                "precision": 0.9371293001186239,
+                "recall": 0.9427207637231504,
+                "f1-score": 0.9399167162403331,
+                "support": 838.0
+            },
+            "accuracy": 0.9607142857142857,
+            "macro avg": {
+                "precision": 0.9604210335321002,
+                "recall": 0.9601776141082216,
+                "f1-score": 0.9602633025802266,
+                "support": 8400.0
+            },
+            "weighted avg": {
+                "precision": 0.9607189640083831,
+                "recall": 0.9607142857142857,
+                "f1-score": 0.9606807614791805,
+                "support": 8400.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                806,
+                0,
+                4,
+                1,
+                3,
+                3,
+                6,
+                2,
+                1,
+                1
+            ],
+            [
+                0,
+                930,
+                4,
+                0,
+                0,
+                0,
+                0,
+                1,
+                2,
+                0
+            ],
+            [
+                3,
+                3,
+                807,
+                6,
+                2,
+                0,
+                1,
+                7,
+                3,
+                3
+            ],
+            [
+                2,
+                0,
+                10,
+                821,
+                1,
+                18,
+                0,
+                6,
+                7,
+                5
+            ],
+            [
+                0,
+                2,
+                6,
+                1,
+                774,
+                3,
+                6,
+                0,
+                1,
+                21
+            ],
+            [
+                3,
+                3,
+                4,
+                14,
+                2,
+                717,
+                3,
+                2,
+                7,
+                4
+            ],
+            [
+                2,
+                2,
+                0,
+                0,
+                0,
+                8,
+                813,
+                0,
+                2,
+                0
+            ],
+            [
+                1,
+                4,
+                4,
+                2,
+                5,
+                2,
+                0,
+                850,
+                1,
+                11
+            ],
+            [
+                3,
+                5,
+                6,
+                12,
+                4,
+                8,
+                3,
+                2,
+                762,
+                8
+            ],
+            [
+                3,
+                1,
+                3,
+                7,
+                13,
+                2,
+                0,
+                14,
+                5,
+                790
+            ]
+        ]
+    }
+]
