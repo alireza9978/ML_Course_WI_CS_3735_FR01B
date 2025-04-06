@@ -10,19 +10,6 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 def clean_bc():
     ##Breaset Cancer dataset
-    # fetch dataset
-    breast_cancer_wisconsin_diagnostic = fetch_ucirepo(id=17)
-
-    # data (as pandas dataframes)
-    X = breast_cancer_wisconsin_diagnostic.data.features
-    y = breast_cancer_wisconsin_diagnostic.data.targets
-
-    # metadata
-    print(breast_cancer_wisconsin_diagnostic.metadata)
-
-    # variable information
-    print(breast_cancer_wisconsin_diagnostic.variables)
-
     # Fetch dataset
     breast_cancer = fetch_ucirepo(id=17)
     X = breast_cancer.data.features
@@ -31,8 +18,6 @@ def clean_bc():
     # Print metadata and variable information
     print("Dataset Metadata:\n", breast_cancer.metadata)
     print("\nVariable Information:\n", breast_cancer.variables)
-
-    # Data Preprocessing
 
     # Check for missing values
     print("\nMissing values in features:\n", X.isnull().sum())
@@ -100,15 +85,6 @@ def clean_dg():
 
 
 def train_evaluate_bc(X_train, X_test, y_train, y_test):
-    """
-    Trains an MLP classifier on the Breast Cancer dataset and returns evaluation metrics.
-
-    Parameters:
-        X_train, X_test, y_train, y_test: Cleaned train-test splits for features and targets.
-
-    Returns:
-        A dictionary containing 'accuracy', 'classification_report', and 'confusion_matrix'.
-    """
     mlp = MLPClassifier(random_state=42, max_iter=300)
     mlp.fit(X_train, y_train)
     y_pred = mlp.predict(X_test)
@@ -122,17 +98,6 @@ def train_evaluate_bc(X_train, X_test, y_train, y_test):
 
 
 def train_evaluate_dg(X_train, X_test, y_train, y_test):
-    """
-    Trains an MLP classifier on the Digit dataset and returns evaluation metrics.
-
-    Note: The input images are expected to be in 28x28 format. The function flattens and scales them.
-
-    Parameters:
-        X_train, X_test, y_train, y_test: Cleaned train-test splits for the Digit dataset.
-
-    Returns:
-        A dictionary containing 'accuracy', 'classification_report', and 'confusion_matrix'.
-    """
     # Flatten the images (28x28 -> 784)
     X_train_flat = X_train.reshape(X_train.shape[0], -1)
     X_test_flat = X_test.reshape(X_test.shape[0], -1)
@@ -155,13 +120,6 @@ def train_evaluate_dg(X_train, X_test, y_train, y_test):
 
 
 def print_metrics(metrics, dataset_name="Dataset"):
-    """
-    Prints the evaluation metrics in a readable format.
-
-    Parameters:
-        metrics (dict): Dictionary containing evaluation metrics.
-        dataset_name (str): Name of the dataset for labeling the output.
-    """
     print(f"\n{dataset_name} - MLP Classifier Performance:")
     print("Accuracy:", metrics['accuracy'])
     print("\nClassification Report:\n", metrics['classification_report'])
